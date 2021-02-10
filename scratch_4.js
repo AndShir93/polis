@@ -74,7 +74,7 @@ function School (name, minYears) {
 var autoSchool = new School('Парус', 18);
 
 autoSchool.welcome();
-// autoSchool.welcome("Тест");
-// autoSchool.welcome("", 15);
-// autoSchool.welcome("Тест", 16);
-// autoSchool.welcome("Тест", 18);
+autoSchool.welcome("Тест");
+autoSchool.welcome("", 15);
+autoSchool.welcome("Тест", 16);
+autoSchool.welcome("Тест", 18);
